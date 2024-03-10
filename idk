@@ -1,0 +1,7 @@
+# Generate a random time in the format HH:MM:SS
+random_hour = str(random.randint(0, 23)).zfill(2)
+random_minute = str(random.randint(0, 59)).zfill(2)
+random_second = str(random.randint(0, 59)).zfill(2)
+
+random_time = f"{random_hour}:{random_minute}:{random_second}"
+print("Random Time:", random_time)
